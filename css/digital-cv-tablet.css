@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* tablet */
+  
+  * {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: "fontello", sans-serif;
+    position: relative;
+    max-width: 100%;
+  }
+  .digital-cv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* goals */
+  
+  .goals-s{
+  }
+  .goal-item{
+    flex-wrap: wrap;
+  }
+  .flag{
+    width: 40px;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+  .goal-item p{
+    padding-left: 15px;
+  }
+  /* scopes */
+  .scopes-s{
+    order:;
+  }
+  .in-out-layout{
+    flex-wrap: wrap;
+  }
+
+  /* team */
+  .team-s{
+    order: 3;
+  }
+  .Member-item{
+    flex-wrap: wrap;
+  }
+  .user{
+    width: 45px;
+    margin-left: 50%;
+    transform: translate(-50%);
+  }
+  .Member-item p{
+    padding-left: 15px;
+    width: 500px;
+  }
+
+  /* primary */
+  .primary-s{
+    order: 3;
+  }
+  .prymari-item{
+    flex-wrap: wrap;
+    width: max-content;
+  }
+  .question{
+    width: 45px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding: 0;
+  }
+  .prymari-item p{
+    width: 551px;
+    padding-left: 15px;
+  }
+
+  /* team */
+
+  .team-s{
+    width: 100vh;
+  }
+  /* timeline */
+
+  .timeline-s{
+    width: 100vh;
+    order: 6;
+  }
+  .border-bott p{
+    width: 535px;
+  }
+}

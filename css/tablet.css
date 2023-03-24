@@ -1,0 +1,217 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+  /* style */
+
+  /* header */
+  .item{
+      width: 150px;
+      height: 65px;
+  }
+  .item-2{
+      width:50px;
+  }
+  .item-2 h3,.item-2 span{
+    visibility: hidden;
+    display: none;
+  }
+
+  /* personal-info col*/
+  /* about */
+  #about{
+    height: 500px;
+    overflow: hidden;
+  }
+  /* Mục tiêu nghề nghiệp */
+  
+  /* Thông tin cá nhân */
+  #target,#personal-info{
+    height: 500px;
+    overflow: hidden;
+  }
+
+  #personal-info{
+      
+  }
+  .section-title{
+      margin-bottom: 40px;
+  }
+  .icon-web{
+      padding-top: 30px;
+      letter-spacing: 20px;
+  }
+
+  /* job-info container */
+
+    /* layout item */
+  .info{
+      gap: 25px 25px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
+  .skill-item{
+      width: 48% !important;
+  }
+  /* icon vs small title */
+  #skill-icon{
+         color: gray;
+         font-size: 40px;
+         height: 100px;
+  }
+  .title,#skill-icon{
+      display: inline-flex;
+  }
+  .title{
+         width: 76%;
+  }
+
+  /* layout nội dung item */
+  .body-item{
+      position: relative;
+      padding-left: 20px;
+      
+  }
+
+  /* Sở thích */
+  .margin-info4 div{
+    width: 65px;
+    }
+  .crep{
+    display: contents;
+    font-size: 15px;
+    letter-spacing: -0.8px;
+  }
+  .item-if-4{
+    margin-top: -160px !important;
+    height: 400px;
+  }
+  .item-if-4{
+    order: 6;
+  }
+
+  /* Học vấn */
+  .item-if-2{
+    margin-top: -240px !important;
+    height: 600px;
+  }
+  .item-if-2{
+    order: 2;
+  }    
+
+  /* Hoạt động */
+  .item-if-3{
+    height: 500px;
+  }
+
+  /* Ngôn ngữ */
+  .item-if-5{
+    order: 5;
+  }
+
+  /* Kỹ năng */
+
+  /* Chứng chỉ - Giải thưởng */
+  .cert-contain{
+         padding-top: 50px;
+  }
+  .merit{
+         padding-top:5px;
+  }
+
+  /* cert-item-(1,2,3) */
+  .cert-item-2 .border-left{
+    border-left: 1px solid #d6c08d;
+  }
+  .cert-item-3,.cert-item-1,.cert-item-2{
+      padding-bottom: 40px;
+      flex-wrap:wrap;
+  }
+  .section-title{
+      height: 50px;
+  }
+
+  /* bố cục văn bản bên trái img */
+  .float{
+      margin-left: 8px;
+  }
+  .img-web{
+    width: 370px !important;
+    padding-left: 20px;
+  }
+
+  /* image */
+  .merit-img{
+      width: 350px;
+  }
+  
+  /* Dự án */
+  #project h3{
+      margin-left: 10px;
+  }
+  .project{
+      column-gap: 20px;
+      margin-bottom: 50px;  
+  }
+  
+  /* image , layout item */
+  .project-item img,.project-item,.project-mid{
+      width: 250px;
+  }
+  .project-mid{
+    position: relative;
+    height: 80px;
+    
+  }
+  .project-mid span{
+    float: left;
+    margin-right: 20px;
+  }
+  .icon-user-1{
+    height: 50px;
+    
+  }
+  .icon-lamp{
+    position: absolute;
+    margin-top: 30px;
+    padding-left: 94px;
+    height: 50px;
+  }
+  .project-item h5{
+      padding-left: 10px;
+      padding: 10px;
+  }
+
+  /* layout dưới hình ảnh */
+  .project-mid{
+      column-gap: 20px;
+      padding: 5px;
+  }
+  .project-right{
+      padding: 20px 15px 20px;
+  }
+  .project-right,.project-right-2{    
+      width: 250px;
+      grid-template-columns:50px 180px;
+      border: 1px solid #d4d4d4;
+  }
+
+  /* item TRANG WEB QUẢN LÝ THÚ CƯNG */
+  .project-right-2{
+      padding: 20px 15px 9.5px;
+  }
+
+  /* border 2021 */
+  .project-mid span{
+      border: 1px solid #199cdb;
+      border-radius: 35%;
+      background-color: #199cdb;
+      color: #e7e7e7;
+      font-size: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  /* footer */
+  .button ul li{
+      width: 120px;
+  }
+}

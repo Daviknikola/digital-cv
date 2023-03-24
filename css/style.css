@@ -1,0 +1,351 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "fontello", sans-serif;
+  position: relative;
+  max-width: 1500px;
+}
+
+/* header */
+#banner .container{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-80%);
+  text-align: center;
+  color: #f7f7f7;
+}
+p{
+  color: #727272;
+}
+
+.nav-bar{
+  justify-content: center;
+}
+.small-title span{
+  color: #5c5c5c;
+}
+#icon-hd{
+  color: rgb(0, 81, 255);
+  text-decoration: none !important;
+}
+.item{
+  width: 200px;
+  padding-top: 30px;
+  border-left: 1px solid #e7e7e7 ;
+  border-right: 1px solid #e7e7e7 ;
+  text-align: center;
+}
+.item-2{
+  width: 400px;
+  border-left: 1px solid #e7e7e7 ;
+  border-right: 1px solid #e7e7e7 ;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.item a{
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  color: #000 !important;
+}
+
+/* personal-info col*/
+#about{
+  background-color:#e7e7e7;
+  height: 450px;    
+  overflow: hidden;
+  
+}
+
+/* Mục tiêu nghề nghiệp */
+#target,#personal-info{
+  padding-top: 80px;
+  padding-right: 30px;
+  padding-left: 50px;
+  width: 50%;
+  overflow: hidden;
+}
+
+/* Thông tin cá nhân */
+#personal-info{
+  line-height: 2;
+  background-color:#dddddd;
+  height: 450px;
+}
+ul{
+  list-style: none;
+
+}
+li{
+  color: #727272;
+}
+li span{
+  font-weight: bold;
+  color: #000;
+}
+.section-title{
+  margin-bottom: 40px;
+}
+.icon-web{
+  padding-top: 30px;
+  letter-spacing: 20px;
+}
+
+/* job-info container */
+
+/* layout item */
+.info{
+  gap: 40px 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-item{
+  border: 1px solid gray;
+  width: 30% !important;
+  line-height: 2;
+  padding: 50px 50px 50px 50px !important;
+}
+.now{
+  border: 1px solid #199cdb;
+  border-radius: 5px;
+  background-color: #199cdb;
+  color: #f7f7f7;
+  font-style: italic;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size       : 13px;
+  margin-left: 5px;
+}
+
+/* icon vs small title */
+#skill-icon{
+     color: gray;
+     font-size: 40px;
+     height: 100px;
+}
+.title,#skill-icon{
+  display: inline-flex;
+}
+.title{
+     width: 78%;
+}
+
+/* time line */
+.body-item{
+  position: relative;
+     padding-left: 33px;
+}
+.dot{
+  position: absolute;
+     border: 4px solid #199cdb;
+     border-radius: 50%;
+  margin: 10px -10%;
+}
+
+/* Sở thích */
+.margin-info4{
+     display: inline-block;
+     letter-spacing: 5px;
+     font-size: 25px;
+     color:rgb(85, 186, 226);
+}
+.margin-info4 div{
+     text-align: center;
+     display: inline-block;
+}
+.like-item1{
+  padding: 15px 10px;
+     border-radius:50%;
+     border: 2px solid rgb(85, 186, 226);
+}
+.like-item2{
+     padding: 15px 15px;
+     border-radius:50%;
+     border: 2px solid rgb(85, 186, 226);
+}
+.crep{
+     display: none;
+}
+
+/* Ngôn ngữ , Kỹ năng */
+.pin-blue{
+     background: #199cdb;
+     display: inline-block;
+     height: 2px;
+     margin-right: 10px;
+     width: 45px;
+}
+.pin-gray{
+  background: #969696;
+     display: inline-block;
+     height: 2px;
+     margin-right: 10px;
+     width: 45px;
+}
+
+/* Chứng chỉ - Giải thưởng */
+#certificate{
+     background-color: #e7e7e7;  
+}
+.cert-contain{
+     padding-top: 50px;
+     line-height: 2;
+}
+.merit{
+     padding-top: 50px;
+}
+
+/* cert-item-(1,2,3) */
+.cert-item-1,.cert-item-2{
+  border-bottom: 1px solid #d6c08d;
+}
+
+.img-web{
+  border-left: 1px solid #d6c08d;
+  padding-left: 50px;  
+  width: 250px !important;
+}
+.cert-item-3,.cert-item-1,.cert-item-2{
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+.cert-item-3{
+  padding-top: 50px;
+}
+.section-title{
+  height: 50px;
+}
+
+/* bố cục văn bản bên trái img */
+.float{
+  margin-left: 40px;
+}
+
+/* image right */
+.merit-img{
+  width: 200px;
+}
+
+/* Dự án */
+#project{
+  padding-top: 50px;
+}
+#project h3{
+  margin-left: 80px;
+}
+.project{
+  column-gap: 50px;
+  margin-bottom: 50px;  
+}
+
+/* image , layout item */
+.project-item img,.project-item{
+  width: 400px;
+  border: 1px solid #d4d4d4;
+  line-height:2;
+}
+.project-item h5{
+  padding-left: 10px;
+  padding: 10px;
+  border: 1px solid #d4d4d4;
+}
+/* layout dưới hình ảnh */
+.project-mid{
+  display: flex;
+  column-gap: 20px;
+  padding: 10px;
+}
+.project-right{
+  padding: 20px 15px 20px;
+}
+.project-right,.project-right-2{    
+  width: 400px;
+  grid-template-columns:100px 280px;
+  border: 1px solid #d4d4d4;
+}
+/* item TRANG WEB QUẢN LÝ THÚ CƯNG */
+.project-right-2{
+  padding: 20px 15px 9.2px;
+}
+
+
+/* border 2021 */
+
+.project-mid span{    
+
+  border: 1px solid #199cdb;
+  border-radius: 35%;
+  background-color: #199cdb;
+  color: #e7e7e7;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+}
+
+/* footer */
+
+#footer{
+
+  background-color: #e7e7e7;
+
+}
+
+.button{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.button ul li{
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+
+}
+
+.button ul{
+  text-align: center;
+  position: relative;
+  height: 20px;
+
+
+}
+
+.button .icon-facebook{
+  font-size: 15px;
+  border: 3px solid #199cdb;
+  border-radius: 50%;
+  background-color: #199cdb;
+  color:#e7e7e7;
+
+}
+
+.button .icon-linkedin{
+  font-size: 15px;
+  border: 3px solid #199cdb;
+  border-radius: 50%;
+  background-color: #199cdb;
+  color:#e7e7e7;
+
+}
+
+.button .icon-github-circled{
+  font-size: 32px;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  background-color: #e7e7e7;
+  color:#199cdb;
+}
+
+.button ul li a{
+  text-decoration: none;
+}
+.button ul li span{
+  font-weight: normal;
+}
