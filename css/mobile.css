@@ -1,9 +1,7 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   
   /* style */
-  body{
-    max-width: max-content;
-  }
+
   /* header */
   .nav-bar{
     flex-wrap: wrap;
