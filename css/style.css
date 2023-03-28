@@ -9,7 +9,10 @@ body{
   max-width: 1500px;
 }
 
-/* header */
+/* header 
+header {
+  overflow: hidden;
+}
 #banner .container{
   position: absolute;
   top:50%;
